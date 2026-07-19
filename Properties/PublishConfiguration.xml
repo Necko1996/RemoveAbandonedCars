@@ -1,0 +1,72 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Remove Abandoned Cars" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Removes dummy parked vehicles across the map" />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="This is a long description" /-->
+	<LongDescription>
+### What does this mod do?
+
+- You can delete dummy parked vehicles without owners (from settings)
+- You can disable spawning of dummy vehicles
+- Bonus - You can remove abandoned trailers in the middle of the road
+
+Mod will clear dummy parked vehicles upon loading and show you cleared amount. It is required to disable dummy traffic spawning in order to preserve clean city.
+
+### Important
+
+Mod incorporate logic from 2 Mimonsi mods:
+- [Fix Broken Trailers](https://mods.paradoxplaza.com/mods/136207/Windows)
+- [Dummy Traffic Remover](https://mods.paradoxplaza.com/mods/107683/Windows)
+
+Full credits to Mimonsi for those 2 features despite my implementation is different code wise.
+(Mimonsi was contacted and gave me permission for this)
+
+This mod require incorporation of logic to disable dummy traffic to be complete solution. Trailers are just bonus.
+You can still use those mods if you like them but that will require you to just uncheck things in Settings of this mod.
+
+If you decide to no longer use those mods, please disable them to not have conflicts of logic.
+
+### Support and feedback
+
+Feedback is welcome through GitHub or Discord links on the right.
+If you like effort put into free mods, please give a Like :)
+
+Support provided to on [Cities: Skylines Modding > Remove Abandoned Cars](https://discord.com/channels/1024242828114673724/1528391834584350810)
+
+### Credits
+- Necko1996 - author/maintainer
+- Thanks to yenyang - introducing me to how to delete things in game and explaining
+- Thanks to krzychu124 - code review, suggestions and explaining how CS2 works
+- Thanks to Mimonsi - used inspiration from his mods (more about it in Important section)
+- Thanks to River-mochi - naming the mod
+
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.0.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="" />
+	<!--Required DLC, can be set multiple times. Supported values are "Landmark Buildings", "San Fransisco Set", "Beach Properties", "Urban Promenades", "Modern Architecture"-->
+	<RequiredDLC Value="" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog Value="" />
+	<!--<ChangeLog>
+	</ChangeLog>-->
+	<!--External link, can be set multiple times. supported types are "discord", "github", "youtube", "twitch", "x", "paypal", "patreon", "buymeacoffee", "kofi", "crowdin", "gitlab", "gofundme"-->
+	<ExternalLink Type="" Url="" />
+	<!--Supported values Public, Private, Unlisted-->
+	<AccessLevel Value="Public" />
+</Publish>
