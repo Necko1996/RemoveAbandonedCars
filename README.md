@@ -41,4 +41,4 @@ Support provided to on [Cities: Skylines Modding > Remove Abandoned Cars](https:
 ## Links
 
 - [Paradox Mods](https://mods.paradoxplaza.com/mods/148432/Windows)
-- [Paradox Forums](https://forum.paradoxplaza.com/forum/threads/notification-looker.1930656/)
+- [Paradox Forums](https://forum.paradoxplaza.com/forum/threads/remove-abandoned-cars.1935461/)
