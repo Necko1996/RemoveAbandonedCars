@@ -6,6 +6,8 @@ Removes dummy parked vehicles across the map
 
 - You can delete dummy parked vehicles without owners (from settings)
 - You can disable spawning of dummy vehicles
+- You can delete not spawned (ghost) vehicles
+- Bonus - You can increase from 1x - 7x capacity of all parking spaces in your city (including those on Residential buildings, ect..)
 - Bonus - You can remove abandoned trailers in the middle of the road
 
 Mod will clear dummy parked vehicles upon loading and show you cleared amount. It is required to disable dummy traffic spawning in order to preserve clean city.
@@ -33,8 +35,8 @@ Support provided to on [Cities: Skylines Modding > Remove Abandoned Cars](https:
 
 ### Credits
 - Necko1996 - author/maintainer
-- Thanks to yenyang - introducing me to how to delete things in game and explaining
-- Thanks to krzychu124 - code review, suggestions and explaining how CS2 works
+- Thanks to yenyang - introducing me on how to delete things in game and explaining
+- Thanks to krzychu124 - explaining how CS2 works
 - Thanks to Mimonsi - used inspiration from his mods (more about it in Important section)
 - Thanks to River-mochi - naming the mod
 

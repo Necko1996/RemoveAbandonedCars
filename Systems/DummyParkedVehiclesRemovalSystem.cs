@@ -96,7 +96,7 @@ namespace RemoveAbandonedCars.Systems
             Mod.log.Info($"Connections with 0 vehicles: {skippedConnectionCount}");
             Mod.log.Info($"-------------------------------------");
 
-            Mod.m_Setting.DeletedVehiclesCount = globalDummyTrafficCount;
+            Mod.m_Setting.DeletedDummyVehiclesCount = globalDummyTrafficCount;
             Mod.m_Setting.IsDeletionProcessActive = false;
         }
 

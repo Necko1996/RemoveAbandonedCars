@@ -12,6 +12,8 @@
 
 - You can delete dummy parked vehicles without owners (from settings)
 - You can disable spawning of dummy vehicles
+- You can delete not spawned (ghost) vehicles
+- Bonus - You can increase from 1x - 7x capacity of all parking spaces in your city (including those on Residential buildings, ect..)
 - Bonus - You can remove abandoned trailers in the middle of the road
 
 Mod will clear dummy parked vehicles upon loading and show you cleared amount. It is required to disable dummy traffic spawning in order to preserve clean city.
@@ -56,7 +58,7 @@ Support provided to on [Cities: Skylines Modding > Remove Abandoned Cars](https:
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/remove-abandoned-cars.1935461/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.0" />
+	<ModVersion Value="1.1.0" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.6.*" />
 	<!--Dependency for the mod, can be set multiple times-->
@@ -66,9 +68,12 @@ Support provided to on [Cities: Skylines Modding > Remove Abandoned Cars](https:
 
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog>
-## v1.0.0
+## v1.1.0
 
-- Initial Release
+- Better settings UI with sections
+- Addition of deleting not spawned personal vehicles
+- Improved performance on Trailer Removal
+- Bonus! - added ability to increase amount of parking spaces in parking facilities, residentials, industry buildings, ect wherver parking exists from 1x - 7x (Recommanded 3x - 5x)
 
 	</ChangeLog>
 	<!--External link, can be set multiple times. supported types are "discord", "github", "youtube", "twitch", "x", "paypal", "patreon", "buymeacoffee", "kofi", "crowdin", "gitlab", "gofundme"-->

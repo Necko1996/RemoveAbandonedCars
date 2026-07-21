@@ -49,6 +49,8 @@ namespace RemoveAbandonedCars
             // Register custom update systems for UI
             updateSystem.UpdateAt<DummyParkedVehiclesRemovalSystem>(SystemUpdatePhase.Modification3);
             updateSystem.UpdateAt<TrailerRemovalSystem>(SystemUpdatePhase.GameSimulation);
+            updateSystem.UpdateAt<ParkedVehiclesRemovalSystem>(SystemUpdatePhase.Modification3);
+            updateSystem.UpdateAt<IncreaseParkingCapacitySystem>(SystemUpdatePhase.GameSimulation);
         }
 
         public void OnDispose()
