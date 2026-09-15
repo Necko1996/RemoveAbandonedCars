@@ -36,7 +36,7 @@ Support provided to on [Cities: Skylines Modding > Remove Abandoned Cars](https:
 ### Credits
 - Necko1996 - author/maintainer
 - Thanks to yenyang - introducing me on how to delete things in game and explaining
-- Thanks to krzychu124 - explaining how CS2 works
+- Thanks to krzychu124 - code review, explaining how CS2 works
 - Thanks to Mimonsi - used inspiration from his mods (more about it in Important section)
 - Thanks to River-mochi - naming the mod
 
